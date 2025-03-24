@@ -1,0 +1,96 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(168, 131, 175);
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead,
+tfoot {
+  background: url(../img/background.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px rgb(63, 35, 85);
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(48, 48, 102, 0.127),
+    rgba(101, 44, 125, 0.5)
+  );
+  border: 3px solid rgb(168, 131, 175);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #faeaff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5d0f9;
+}
+
+table {
+  background-color: #ffffff;
+}
+
+caption {
+  font-family: "IBM Plex Serif", cursive;
+  font-size: 25px;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #000000;
+  text-align: right;
+  letter-spacing: 1px;
+}
